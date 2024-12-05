@@ -1,0 +1,51 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header */
+.header {
+    background-color: #222;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Links and Navigation */
+.brand-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.brand-card {
+    text-decoration: none;
+    color: white;
+    background-color: #555;
+    padding: 1.5rem;
+    border-radius: 5px;
+    text-align: center;
+    width: 150px;
+    transition: 0.3s;
+}
+
+.brand-card:hover {
+    background-color: #000;
+}
+
+/* Brand Pages */
+.brand-page {
+    text-align: center;
+    padding: 2rem;
+}
+
+.brand-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 1rem 0;
+}
